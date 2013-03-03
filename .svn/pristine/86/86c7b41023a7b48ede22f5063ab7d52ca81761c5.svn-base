@@ -1,0 +1,2 @@
+# cat=basic/enable; type=boolean; label= Enable Warning for all users (even non admin)
+enableWarningForAllUsers = 0

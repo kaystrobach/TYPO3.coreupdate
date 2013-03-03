@@ -1,0 +1,13 @@
+#!/bin/sh
+
+REPOS="$1"
+REV="$2"
+
+/usr/local/bin/svnnotify                    \
+    --repos-path    "$REPOS"                \
+    --revision      "$REV"                  \
+    --subject-cx                            \
+    --with-diff                             \
+    --handler       HTML::ColorDiff         \
+    --to            typo3@kay-strobach.de   \
+    --from          typo3@kay-strobach.de

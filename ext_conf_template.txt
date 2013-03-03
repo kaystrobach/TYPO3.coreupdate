@@ -1,0 +1,4 @@
+# cat=basic/enable; type=boolean; label= Enable Warning for all users (even non admin)
+enableWarningForAllUsers = 0
+# cat=basic/enable; type=string; label= Warning Sound
+notificationSound = EXT:coreupdate/Resources/Public/Sounds/Fire_pager-jason-1283464858.mp3
