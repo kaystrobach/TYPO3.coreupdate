@@ -1,21 +1,21 @@
 <?php
 
-########################################################################
-# Extension Manager/Repository config file for ext "contextswitcher".
-#
-# Auto generated 29-03-2012 14:33
-#
-# Manual updates:
-# Only the data in the array - everything else is removed by next
-# writing. "version" and "dependencies" must not be touched!
-########################################################################
+/***************************************************************
+ * Extension Manager/Repository config file for ext "coreupdate".
+ *
+ * Auto generated 11-03-2013 19:34
+ *
+ * Manual updates:
+ * Only the data in the array - everything else is removed by next
+ * writing. "version" and "dependencies" must not be touched!
+ ***************************************************************/
 
-$EM_CONF[$_EXTKEY] = array(
+$EM_CONF[$_EXTKEY] = array (
 	'title' => 'TYPO3 Core Updater',
 	'description' => 'Informs you for TYPO3 Updates',
 	'category' => 'be',
 	'shy' => 0,
-	'version' => '0.0.99',
+	'version' => '0.0.100',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -32,17 +32,22 @@ $EM_CONF[$_EXTKEY] = array(
 	'author_company' => '',
 	'CGLcompliance' => '',
 	'CGLcompliance_note' => '',
-	'constraints' => array(
-		'depends' => array(
+	'constraints' => 
+	array (
+		'depends' => 
+		array (
 			'typo3' => '4.5.0-6.0.0',
 		),
-		'conflicts' => array(
+		'conflicts' => 
+		array (
 		),
-		'suggests' => array(
+		'suggests' => 
+		array (
 		),
 	),
 	'_md5_values_when_last_written' => 'a:3:{s:21:"ext_conf_template.txt";s:4:"b63d";s:12:"ext_icon.gif";s:4:"6759";s:17:"ext_localconf.php";s:4:"6eff";}',
-	'suggests' => array(
+	'suggests' => 
+	array (
 	),
 );
 
