@@ -172,7 +172,7 @@ var coreupdate = Class.create({
 				}
 				TYPO3.Flashmessage.display(
 					TYPO3.Severity.warning,
-					'Security update available',
+					'<a href="http://typo3.org/news/security-bulletins/">Security update available</a>',
 					'Please take a look into the update notes.',
 					12
 				);
@@ -183,7 +183,7 @@ var coreupdate = Class.create({
 			case 'newMajorUpdate':
 				TYPO3.Flashmessage.display(
 					TYPO3.Severity.information,
-					'Maintaince update available',
+					'<a href="http://typo3.org/news/development/">Maintaince update available</a>',
 					'Please take a look into the update notes.',
 					5
 				);
