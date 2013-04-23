@@ -86,17 +86,10 @@
 						<span class="marker-{version.type}">{version.type}</span>
 					</td>
 					<td>
-						<f:if condition="{0: version.type}=={0: 'security'}">
-							<f:then>
-
-							</f:then>
-							<f:else>
-								<f:link.action action="import" arguments="{version: version.version}">
-									<span class="t3-icon t3-icon-actions t3-icon-actions-edit t3-icon-edit-add">&nbsp;</span>
-									Get
-								</f:link.action>
-							</f:else>
-						</f:if>
+						<f:link.action action="import" arguments="{version: version.version}">
+							<span class="t3-icon t3-icon-actions t3-icon-actions-edit t3-icon-edit-add">&nbsp;</span>
+							Get
+						</f:link.action>
 					</td>
 				</tr>
 			</f:for>
